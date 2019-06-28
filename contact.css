@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat);
+
+* {
+    font-family: "verdana";
+    margin: 0;
+}
+nav a {
+    color: white;
+    font-size: 1.5vw;
+    margin: .9vw;
+}
+nav {
+    border: .3vw solid black;
+    background-color: black;
+}
+header {
+    text-align: center;
+}
+h1 {
+    text-align: left;
+}
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KzEVJAavALNVBOJKdsjMnTTzw43muno2SPOCRHKEMkrZ0r8B");
+    background-size: cover
+}
+h1 {
+    margin: 1vw;
+}
+a:link {
+    text-decoration: none;
+  }
+a:hover {
+    color: crimson;
+  }  
+  a:active {
+    text-decoration: none;
+    color:  rgb(60, 187, 145);
+  }
+  footer {
+    margin-top: 47.5vh;
+    background-color:black;
+    border: 3vw black;
+}
+h2 {
+    margin-top: 3vh;
+    text-align: left;
+    margin-left: 1vw
+}
+form {
+    margin-top: 1vh;
+    text-align: left;
+    margin-left: 1vw;
+}
+form button {
+    margin-top: 1vh;
+    margin-left: .25vw;
+    border: .112vw solid black;
+    border radius: 1vw;
+}
+#yourmessage {
+    height: 5vh;
+}
+p {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    text-align: left;
+}
+input {
+    border: .112vw solid black;
+    border-radius: 1vw;
+    text-indent: 10px;
+  }
+textarea {
+    border: .112vw solid black;
+    border-radius: 1vw;
+}
+#success {
+    font-family: 'Caveat',serif;
+    font-size: 1.5vw;
+}
+@media screen and (max-width: 414px) {
+    nav a {
+        font-size: 3vw;
+    }
+    input {
+        border: .5vw solid black;
+        border-radius: 3vw;
+      }
+    textarea {
+        border: .5vw solid black;
+        border-radius: 5vw;
+        width: 90%;
+    }
+    #success {
+        font-family: 'Caveat',serif;
+        font-size: 7.5vw;
+
+}
+@media screen and (max-width: 375px) {
+    #customerservice {
+        width: 97.5%;
+    }
+}

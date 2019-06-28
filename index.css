@@ -1,0 +1,71 @@
+* {
+    font-family: "verdana";
+    margin: 0;
+}
+nav a {
+    color: white;
+    font-size: 1.5vw;
+    margin: .9vw;
+}
+nav {
+    border: .3vw solid black;
+    background-color: black;
+}
+img {
+    width: 20vw;
+    margin: 1vw;
+}
+header {
+    text-align: center;
+}
+body {
+    background-image: url("https://image.freepik.com/free-vector/geometrical-gradient-regular-triangle-background_1164-2261.jpg");
+    background-size: cover
+}
+h1 {
+    margin: 1vw;
+}
+p {
+    margin: 1vw;
+}
+a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    color: crimson;
+  }  
+  a:active {
+    text-decoration: none;
+    color:  rgb(60, 187, 145);
+  } 
+  footer {
+      margin-top: 22vh;
+      background-color:black;
+      border: 1vw black;
+      margin-bottom: 0vh;
+  }
+  @media screen and (max-width: 414px) {
+    nav a {
+        font-size: 3vw;
+    }
+    p {
+        font-size: 3.25vw
+      }
+    img {
+        width: 40%;
+    }
+    footer {
+        margin-top: 43vh;
+    }
+  }
+  @media screen and (max-width: 320px) {
+      p {
+          font-size: 4vw;
+      }
+      nav a {
+          font-size: 3.5vw;
+      }
+      h1 {
+          font-size: 9vw;
+      }
+  }
